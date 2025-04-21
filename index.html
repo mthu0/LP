@@ -2,118 +2,107 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Anna Lalaty Skincare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anna Lalaty</title>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
       body {
         font-family: "Segoe UI", sans-serif;
-        background: #ffeef5;
-        margin: 0;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        background: #fffafc;
+        color: #333;
       }
 
-      .container {
-        background: #fff0f5;
-        border-radius: 20px;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        max-width: 1000px;
-        padding: 30px;
+      header {
         text-align: center;
+        padding: 30px 15px;
+        background-color: #fdf0f5;
       }
 
-      .title {
-        font-size: 48px;
-        font-weight: bold;
-        background: linear-gradient(to right, #87cefa, #ff69b4);
-        -webkit-text-fill-color: transparent;
-        margin-bottom: 20px;
+      header h1 {
+        font-size: 2.5rem;
+        color: #d44ca7;
       }
 
-      .images {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 30px;
-        margin-bottom: 30px;
+      header p {
+        font-size: 1.1rem;
+        color: #888;
       }
 
-      .circle-image {
-        border-radius: 50%;
-        border: 3px solid #dda0dd;
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-      }
-
-      .button {
-        padding: 15px 30px;
-        background-color: #ec5c9c;
-        color: white;
-        font-size: 18px;
-        border: none;
-        border-radius: 30px;
-        cursor: pointer;
-        text-decoration: none;
-        transition: background-color 0.3s ease;
-      }
-
-      .button:hover {
-        background-color: #c94b85;
-      }
-
-      .link {
-        margin-top: 10px;
-        color: #a64ca6;
-        font-size: 16px;
+      .banner img {
+        width: 100vw;
+        height: auto;
         display: block;
+      }
+
+      .cta {
+        text-align: center;
+        margin: 30px 20px;
+      }
+
+      .cta a {
+        background-color: #ec4b9a;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 30px;
+        font-size: 1.2rem;
+        text-decoration: none;
+        display: inline-block;
+        transition: background 0.3s ease;
+      }
+
+      .cta a:hover {
+        background-color: #d23e89;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9rem;
+        color: #aaa;
+      }
+
+      @media (max-width: 600px) {
+        header h1 {
+          font-size: 2rem;
+        }
+
+        .cta a {
+          font-size: 1rem;
+          padding: 12px 24px;
+        }
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="title">ANNA LALATY</div>
-      <div class="images">
-        <img
-          src="d:\Minhthu\git\LP\1.png"
-          alt="Skincare Product 1"
-          class="circle-image"
-        />
-        <img
-          src="d:\Minhthu\git\LP\2.png"
-          alt="Skincare Product 2"
-          class="circle-image"
-        />
-        <img
-          src="d:\Minhthu\git\LP\3.png"
-          alt="Skincare Product 1"
-          class="circle-image"
-        />
-        <img
-          src="d:\Minhthu\git\LP\4.png"
-          alt="Skincare Product 1"
-          class="circle-image"
-        />
-        <img
-          src="d:\Minhthu\git\LP\5.png"
-          alt="Skincare Product 1"
-          class="circle-image"
-        />
-        <img
-          src="d:\Minhthu\git\LP\6.png"
-          alt="Skincare Product 1"
-          class="circle-image"
-        />
-        <img
-          src="d:\Minhthu\git\LP\7.png"
-          alt="Skincare Product 1"
-          class="circle-image"
-        />
-      </div>
-      <a href="https://www.reallygreatsite.com" class="button">GET IT NOW</a>
-      <span class="link">www.reallygreatsite.com</span>
+    <header>
+      <h1>Anna Lalaty</h1>
+      <p>Orchid Skincare Collection</p>
+    </header>
+
+    <div class="banner">
+      <img src="1.png" />
+      <img src="2.png" />
+      <img src="3.png" />
+      <img src="4.png" />
+      <img src="5.png" />
+      <img src="6.png" />
+      <img src="7.png" />
     </div>
+
+    <div class="cta">
+      <a
+        href="https://px.a8.net/svt/ejp?a8mat=453ENO+FBWUK2+5NU2+5ZEMP"
+        rel="nofollow"
+      >
+        GET IT NOW</a
+      >
+    </div>
+
+    <footer>&copy; 2025 Anna Lalaty. All rights reserved.</footer>
   </body>
 </html>
